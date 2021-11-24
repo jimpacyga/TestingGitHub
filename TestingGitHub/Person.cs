@@ -8,5 +8,7 @@ namespace TestingGitHub
         public string HairColor { get; set; }
 
         public string Name { get; set; }
+
+        public int NumberOfArms { get; set; }
     }
 }

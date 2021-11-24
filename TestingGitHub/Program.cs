@@ -7,7 +7,8 @@ Person p = new Person
 {
     Age = 42,
     HairColor = "Sandy",
-    Name = "Bozo the Clown"
+    Name = "Bozo the Clown",
+    NumberOfArms = 2
 };
 
-Console.WriteLine($"Age '{p.Age}', HairColor '{p.HairColor}'., Name '{p.Name}'.");
+Console.WriteLine($"Age '{p.Age}', HairColor '{p.HairColor}'., Name '{p.Name}', #Arms '{p.NumberOfArms}'.");
