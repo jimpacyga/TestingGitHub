@@ -6,7 +6,8 @@ Console.WriteLine("Hello, World!");
 Person p = new Person
 {
     Age = 42,
-    HairColor = "Sandy"
+    HairColor = "Sandy",
+    Name = "Bozo the Clown"
 };
 
-Console.WriteLine($"Age '{p.Age}', HairColor '{p.HairColor}'.");
+Console.WriteLine($"Age '{p.Age}', HairColor '{p.HairColor}'., Name '{p.Name}'.");
